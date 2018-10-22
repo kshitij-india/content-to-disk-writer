@@ -19,8 +19,8 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/kshitijjain/content-to-disk-writer"
+    "url": "git+https://bitbucket.org/kshitijjain/content-to-disk-writer.git"
   },
   "homepage": "https://bitbucket.org/kshitijjain/content-to-disk-writer",
-  "description": ""
+  "description": "A NodeJS server which accepts text contents over http POST request and writes them to the file file-content.txt"
 }
