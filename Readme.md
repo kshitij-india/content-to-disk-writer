@@ -1,5 +1,5 @@
 # content-to-disk-writer #
-A NodeJS server which accepts text contents over http POST request and writes them to the file "file-content.txt"
+A NodeJS server which accepts text contents over http POST request and writes them to the file "file-content.txt".
 
 
 ## Installation ##
