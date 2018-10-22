@@ -1,7 +1,6 @@
 {
   "name": "content-to-disk-writer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,5 +15,12 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "request": "^2.88.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/kshitijjain/content-to-disk-writer"
+  },
+  "homepage": "https://bitbucket.org/kshitijjain/content-to-disk-writer",
+  "description": ""
 }
