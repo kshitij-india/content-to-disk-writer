@@ -37,9 +37,11 @@ var server= http.createServer(function(req, res){
     }
 });
 
-exports.listen= function(port){
+exports.listen= function(port, callback){
     server.listen(port, function(){
         console.log(`Server listening on port ${port}. Navigate to http://localhost:${port} to proceed.`);
+
+        if(callback) callback();
     });
 };
 

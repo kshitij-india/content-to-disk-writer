@@ -6,8 +6,10 @@ var server= require('../server');
 
 describe('Writing content to disk server tests', function(){
 
-    before('start the server', function(){
-        server.listen(3001);
+    before('start the server', function(done){
+        server.listen(3001, function(){
+            done();
+        });
     });
 
     it('should write to file "file-content.txt" whatever has been entered by the user', function(done){
